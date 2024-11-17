@@ -1,0 +1,95 @@
+body{
+    /*background-color:rgba(0, 0, 0, 0.946);*/
+    margin:26px; 
+    margin-top: 0px;
+    background-color: rgba(0, 0, 0, 0.888);
+    font-family: Faculty Glyphic;
+}
+header{
+    text-align: justify;
+    display: block;
+    border:solid;
+    font-size: 30px;
+    display: block;
+    background-color: rgb(96, 156, 181);
+    padding:10px;
+    margin: 10px 120px;
+    position: relative;
+    margin: auto;
+
+}
+
+div#parte-interactiva{
+    display: block;
+    background-color:rgb(117, 117, 252);
+    margin:10px;
+    margin-top: 0px;
+    margin-right:1px;
+    margin-left: 1px;
+    width: 97%;
+    height:100%;
+    text-align: center;
+    padding: 15px;
+    font-size: 20px;
+    align-items: baseline;
+    border: solid;
+    display:flex ;justify-content: space-between;
+    list-style: none;
+
+}
+div#contenido{
+    background-color: rgb(93, 93, 202);
+    margin: 10px 60px;
+    font-size: 20px;
+    align-items: baseline;
+    border: solid;
+    position: relative;
+}
+footer{
+    position: relative;
+    background-color: aliceblue;
+    height: 100%;
+    width: 100%;
+}
+
+
+/*  ESTILO BOTONES SIN ANIMACION */
+a{
+    background-color: rgb(117, 117, 252);
+}
+button{
+    background-color: rgb(117, 117, 252);
+    padding: 10px;
+}
+nav#imagenes{
+    text-align: center;
+    direction: ltr;
+}
+
+
+
+
+/* AQUI IRA MODIFICACIONES DE SOCIAL MEDIAS*/
+.buttons {
+    min-width: 700px;
+    display: flex;
+    justify-content: space-around;}
+
+    .buttons a {
+        text-decoration: none;
+        font-size: 28px;
+        width: 60px;
+        height: 60px;
+        line-height: 60px;
+        text-align: center;
+        background: #314652;
+        color: #f1f1f1;
+        border-radius: 50%;
+        box-shadow: 2px 2px 5px rgba(0, 0, 0, .5);
+        transition: all .4s ease-in-out;
+        margin-top: 50px;
+      }
+      
+      .buttons a:hover {
+        transform: scale(1.2);
+      }
