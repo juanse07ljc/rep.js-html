@@ -4,10 +4,11 @@ body{
     margin-top: 0px;
     background-color: rgba(0, 0, 0, 0.888);
     font-family: Faculty Glyphic;
+    font-size: 20px;
 }
 header{
     text-align: justify;
-    display: block;
+    display: block; 
     border:solid;
     font-size: 30px;
     display: block;
@@ -17,33 +18,24 @@ header{
     position: relative;
     margin: auto;
 
+
 }
 
-div#parte-interactiva{
-    display: block;
+nav#parte-interactiva{
     background-color:rgb(117, 117, 252);
-    margin:10px;
-    margin-top: 0px;
-    margin-right:1px;
-    margin-left: 1px;
-    width: 97%;
-    height:100%;
-    text-align: center;
-    padding: 15px;
-    font-size: 20px;
-    align-items: baseline;
+    padding: 10px;
     border: solid;
-    display:flex ;justify-content: space-between;
-    list-style: none;
+    display:flex;justify-content: space-around;
 
 }
-div#contenido{
+section#contenido{
     background-color: rgb(93, 93, 202);
     margin: 10px 60px;
     font-size: 20px;
     align-items: baseline;
     border: solid;
     position: relative;
+    padding: 30px 40px;
 }
 footer{
     position: relative;
@@ -53,21 +45,42 @@ footer{
 }
 
 
-/*  ESTILO BOTONES SIN ANIMACION */
-a{
-    background-color: rgb(117, 117, 252);
-}
+
+
+/* BOTONES*/
 button{
     background-color: rgb(117, 117, 252);
     padding: 10px;
+    width: auto;
+    height: auto;
+    margin: auto;
 }
-nav#imagenes{
+/*SECCION DE LAS IMAGENES */
+figure#imagenes{
     text-align: center;
     direction: ltr;
+    display: block;
+}
+img{
+    margin: auto;
+    width: 300px;
+    height: 380px;
+    border: solid 8px rgba(0, 0, 0, 0.869);
+}
+img#imagen_ancha{
+    width: max-content;
+    height: max-content;
 }
 
 
 
+
+
+/* AQUI IRA MODIFICACIONES DE SOCIAL MEDIAS*/
+
+a{
+    background-color: rgb(117, 117, 252);
+}
 
 /* AQUI IRA MODIFICACIONES DE SOCIAL MEDIAS*/
 .buttons {
@@ -88,8 +101,11 @@ nav#imagenes{
         box-shadow: 2px 2px 5px rgba(0, 0, 0, .5);
         transition: all .4s ease-in-out;
         margin-top: 50px;
+        margin: auto;
+
       }
       
       .buttons a:hover {
         transform: scale(1.2);
       }
+
