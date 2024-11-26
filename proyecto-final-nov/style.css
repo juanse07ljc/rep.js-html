@@ -1,10 +1,10 @@
 body{
     /*background-color:rgba(0, 0, 0, 0.946);*/
-    margin:26px; 
-    margin-top: 0px;
+    margin: 0px;
     background-color: rgba(0, 0, 0, 0.888);
     font-family: Faculty Glyphic;
     font-size: 20px;
+    box-sizing: border-box;
 }
 header{
     text-align: justify;
@@ -14,11 +14,12 @@ header{
     display: block;
     background-color: rgb(96, 156, 181);
     padding:10px;
-    margin: 10px 120px;
     position: relative;
     margin: auto;
-
-
+    text-align: center;
+    flex-wrap: wrap; /*CON */
+    margin-bottom: 0px;
+    flex-direction: row-reverse;
 }
 
 nav#parte-interactiva{
@@ -26,16 +27,25 @@ nav#parte-interactiva{
     padding: 10px;
     border: solid;
     display:flex;justify-content: space-around;
+    flex-wrap: wrap; /*CON */
+    margin-bottom: 0px;
+    margin: auto;
+    flex-direction: row-reverse;
 
 }
 section#contenido{
     background-color: rgb(93, 93, 202);
-    margin: 10px 60px;
+    margin: auto;
     font-size: 20px;
     align-items: baseline;
     border: solid;
-    position: relative;
     padding: 30px 40px;
+    display: flex;
+    flex-wrap: wrap; /*CON */
+    margin-bottom: 0px;
+    flex-direction: row-reverse;
+    text-align: center;
+    justify-content: center;
 }
 footer{
     position: relative;
@@ -43,9 +53,6 @@ footer{
     height: 100%;
     width: 100%;
 }
-
-
-
 
 /* BOTONES*/
 button{
@@ -57,24 +64,22 @@ button{
 }
 /*SECCION DE LAS IMAGENES */
 figure#imagenes{
-    text-align: center;
-    direction: ltr;
-    display: block;
+    margin: auto;
 }
 img{
-    margin: auto;
+    margin: 10px;
     width: 300px;
     height: 380px;
     border: solid 8px rgba(0, 0, 0, 0.869);
+    min-width: 375px;
+    border-radius: 10px;
+    min-height: 390px;
 }
-img#imagen_ancha{
+
+/*img#imagen_ancha{
     width: max-content;
-    height: max-content;
-}
-
-
-
-
+    border-radius: 10px;
+}*/
 
 /* AQUI IRA MODIFICACIONES DE SOCIAL MEDIAS*/
 
@@ -84,7 +89,7 @@ a{
 
 /* AQUI IRA MODIFICACIONES DE SOCIAL MEDIAS*/
 .buttons {
-    min-width: 700px;
+    min-width: 375px;
     display: flex;
     justify-content: space-around;}
 
