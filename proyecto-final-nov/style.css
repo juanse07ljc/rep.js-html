@@ -1,5 +1,4 @@
 body{
-    /*background-color:rgba(0, 0, 0, 0.946);*/
     margin: 0px;
     background-color: rgba(0, 0, 0, 0.888);
     font-family: Faculty Glyphic;
@@ -27,7 +26,7 @@ nav#parte-interactiva{
     padding: 10px;
     border: solid;
     display:flex;justify-content: space-around;
-    flex-wrap: wrap; /*CON */
+    flex-wrap: wrap; /*RESPONSIVE */
     margin-bottom: 0px;
     margin: auto;
     flex-direction: row-reverse;
@@ -41,12 +40,14 @@ section#contenido{
     border: solid;
     padding: 30px 40px;
     display: flex;
-    flex-wrap: wrap; /*CON */
+    flex-wrap: wrap; /*RESPONSIVE */
     margin-bottom: 0px;
     flex-direction: row-reverse;
     text-align: center;
     justify-content: center;
+
 }
+
 footer{
     position: relative;
     background-color: aliceblue;
@@ -71,25 +72,16 @@ img{
     width: 300px;
     height: 380px;
     border: solid 8px rgba(0, 0, 0, 0.869);
-    min-width: 375px;
+    min-width: 320px; /*RESPONSIVE */
     border-radius: 10px;
-    min-height: 390px;
+    min-height: 390px; /*RESPONSIVE */
 }
-
-/*img#imagen_ancha{
-    width: max-content;
-    border-radius: 10px;
-}*/
-
-/* AQUI IRA MODIFICACIONES DE SOCIAL MEDIAS*/
-
 a{
     background-color: rgb(117, 117, 252);
 }
-
 /* AQUI IRA MODIFICACIONES DE SOCIAL MEDIAS*/
 .buttons {
-    min-width: 375px;
+    min-width: 310px;
     display: flex;
     justify-content: space-around;}
 
