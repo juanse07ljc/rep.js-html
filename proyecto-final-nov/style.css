@@ -3,8 +3,8 @@ body{
     background-color: rgba(0, 0, 0, 0.888);
     font-family: Faculty Glyphic;
     font-size: 20px;
-    box-sizing: border-box;
 }
+/*ENCABEZADO ESTILOS*/
 header{
     text-align: justify;
     display: block; 
@@ -20,7 +20,7 @@ header{
     margin-bottom: 0px;
     flex-direction: row-reverse;
 }
-
+/*BARRA DE NAVEGACION*/
 nav#parte-interactiva{
     background-color:rgb(117, 117, 252);
     padding: 10px;
@@ -47,14 +47,6 @@ section#contenido{
     justify-content: center;
 
 }
-
-footer{
-    position: relative;
-    background-color: aliceblue;
-    height: 100%;
-    width: 100%;
-}
-
 /* BOTONES*/
 button{
     background-color: rgb(117, 117, 252);
@@ -63,7 +55,7 @@ button{
     height: auto;
     margin: auto;
 }
-/*SECCION DE LAS IMAGENES */
+/*SECCION DE LAS IMAGENES ---MY TRAVELS*/
 figure#imagenes{
     margin: auto;
 }
